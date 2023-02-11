@@ -64,8 +64,8 @@ Answer: yes, its truthy value because its a number.
 
 Exercise-6:When to Use if else vs ternary vs switch? (2)
 
-    Use if/else statements when you need to evaluate a condition and execute one or more statements based on the result. This is the most flexible option, as you can use any expression as the condition and execute any number of statements in each branch of the statement.
+- Use if/else statements when you need to evaluate a condition and execute one or more statements based on the result. This is the most flexible option, as you can use any expression as the condition and execute any number of statements in each branch of the statement.
 
-    Use the ternary operator (condition ? exprIfTrue : exprIfFalse) when you have a simple binary condition and want to return one of two expressions based on the result. This can be a more concise and readable alternative to an if/else statement, especially when the expressions are short.
+- Use the ternary operator (condition ? exprIfTrue : exprIfFalse) when you have a simple binary condition and want to return one of two expressions based on the result. This can be a more concise and readable alternative to an if/else statement, especially when the expressions are short.
 
-    Use switch statements when you need to evaluate a single expression against multiple possible values and execute different code blocks based on the matching value. This can be a more efficient and readable alternative to a long chain of if/else if statements, especially when the number of cases is high.
+- Use switch statements when you need to evaluate a single expression against multiple possible values and execute different code blocks based on the matching value. This can be a more efficient and readable alternative to a long chain of if/else if statements, especially when the number of cases is high.
